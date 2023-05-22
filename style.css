@@ -342,27 +342,6 @@ aside.active{
     font-size: 26px;
     cursor: pointer;
 }
-.cart-number{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
-    right: 5px;
-}
-.btn-add, .btn-subs{
-    border: 0;
-    outline: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    font: 700 14px 'GeneralSans-Regular';
-    cursor: pointer;
-    background-color: var(--shadow);
-}
-.quantity-num{
-    margin: 0 8px;
-}
 .cart-total{
     display: flex;
     justify-content: space-between;

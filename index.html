@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shop</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <section class="logo">
+                <p>The.Shop</p>
+            </section>
+            <section class="nav-items" id="nav-item">
+                <div class="cart-icon">
+                    <i class="bx bx-cart-alt"></i>
+                    <!-- notification -->
+                    <div class="notif"></div>
+                </div>
+                <div class="closebtn" id="close-btn">
+                    <i class="bx bx-x"></i>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <!-- Main section -->
+    <main>
+        <h2 class="heading">"Welcome to The Shop, where shopping is a pleasure! Discover our wide selection of products, all at unbeatable prices. Shop now and experience the convenience and quality of The Shop."</h2>
+        <h3>Available Products</h3>
+        <section class="filter">
+            <button class="btn picked" data-filter = "all">ALL</button>
+            <button class="btn" data-filter = "shirt">SHIRTS</button>
+            <button class="btn" data-filter = "shoe">SHOES</button>
+            <button class="btn" data-filter = "bag">BAGS</button>
+            <button class="btn" data-filter = "trouser">TROUSERS</button>
+            <button class="btn" data-filter = "cap">CAPS</button>
+            <button class="btn" data-filter = "gadget">GADGETS</button>
+        </section>
+        <section class="product-content" id="product-content"></section>
+        <aside class="cart-container">
+            <h1>YOUR CART</h1>
+            <section class="cart-content">
+
+            </section>
+            <section class="cart-total">
+                <p>Total</p>
+                <p class="total">₦ 0</p>
+            </section>
+            <section class="buy-container">
+                <button class="buy-btn">BUY NOW</button>
+            </section>
+        </aside>
+    </main>
+    <!-- Alert -->
+    <section class="alert">
+        <span class="alert-txt">Already Added to Cart</span>
+        <span class="close">
+            <i class="bx bx-x"></i>
+        </span>
+    </section>
+    <!-- SUCCESS -->
+    <section class="sucess-box">
+        <!-- Loader -->
+        <div id="wifi-loader">
+            <svg class="circle-outer" viewBox="0 0 86 86">
+                <circle class="back" cx="43" cy="43" r="40"></circle>
+                <circle class="front" cx="43" cy="43" r="40"></circle>
+                <circle class="new" cx="43" cy="43" r="40"></circle>
+            </svg>
+            <svg class="circle-middle" viewBox="0 0 60 60">
+                <circle class="back" cx="30" cy="30" r="27"></circle>
+                <circle class="front" cx="30" cy="30" r="27"></circle>
+            </svg>
+            <svg class="circle-inner" viewBox="0 0 34 34">
+                <circle class="back" cx="17" cy="17" r="14"></circle>
+                <circle class="front" cx="17" cy="17" r="14"></circle>
+            </svg>
+        </div>
+        <!-- sucess or not -->
+        <div class="success-msg">
+            <i class="bx bx-navigation"></i> 
+            <p>Order Placed Succesfully</p>
+        </div>
+    </section>
+    <script src="./script.js" type="module"></script>
+    <script src="./product.js" type="module"></script>
+</body>
+</html>

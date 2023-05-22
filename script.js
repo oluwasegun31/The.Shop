@@ -120,11 +120,6 @@ function displayCart(a){
                         <p class="cart-price">₦ ${price}</p>
                     </div>
                     <i class="bx bx-x cart-remove" onclick= 'removeCart(${j++})'></i>
-                    <div class="cart-number">
-                        <button class="btn-subs">-</button>
-                        <p class="quantity-num">${quantity}</p>
-                        <button class="btn-add">+</button>
-                    </div>
                 </div>`
             )
         }).join('');

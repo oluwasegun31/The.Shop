@@ -162,7 +162,7 @@ export const products = [
     },
     {
         id: 23,
-        image: './Assets/images/Icecream-cone-Cap.jpg',
+        image: './Assets/images/Icecrem-cone-Cap.jpg',
         productTitle: "Orange Cap",
         price: 2900,
         filterType: "cap",

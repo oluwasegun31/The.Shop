@@ -92,6 +92,7 @@ window.removeCart = function(a){
 function displayCart(a){
     let j = 0,total = 0, k = 0
     var quantity = 1
+
     if(cart.length === 0){
         ///to show empty text if cart is empty
         cartContent.innerHTML = `<p class='empty-cart'>YOUR CART IS EMPTY</p>`;
@@ -123,6 +124,7 @@ function displayCart(a){
                 </div>`
             )
         }).join('');
+
         /// to add a red notification if the cart is not empty
         notification.classList.add('active');
         // to get the total price
@@ -142,6 +144,7 @@ buyBtn.addEventListener('click', ()=> {
         successContainer.style.backgroundColor = '#85d685';
         successContainer.style.transition = '0.2s'
     }, 3500)
+
     /// a timer to show th order container for 5s in total
     setTimeout(()=> {
         successContainer.style.display= 'none';
@@ -149,6 +152,7 @@ buyBtn.addEventListener('click', ()=> {
         successMessage.style.display = 'none';
         loader.style.display = 'flex';
     }, 5000);
+    
     //to remove all the items in cart
     cart.splice(0, cart.length);
     //to close both the close button and the cart container

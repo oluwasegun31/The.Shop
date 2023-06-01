@@ -153,13 +153,8 @@ main > h3{
     backdrop-filter: blur(60px);
     -webkit-backdrop-filter: blur(60px);
 }
-.filter::-webkit-scrollbar{
-    width: 0px;
-    height: 0px;
-}
-.filter::-webkit-scrollbar-track{
-    background: transparent;
-}
+.filter::-webkit-scrollbar{width: 0px; height: 0px;}
+.filter::-webkit-scrollbar-track{background: transparent;}
 .filter button{
     position: relative;
     margin-right: 15px;
@@ -210,22 +205,10 @@ main > h3{
     object-fit: cover;
     object-position: center;
 }
-.product-title{
-    font: 500 1.2rem 'TrenchSlab-Medium';
-    transition: 0.3s;
-}
-.product-box:hover .product-title{
-    font: 500 1rem 'TrenchSlab-Medium';
-    transition: 0.3s;
-}
-.product-price{
-    font: 600 1rem 'GeneralSans-Regular';
-    transition: 0.3s;
-}
-.product-box:hover .product-price{
-    font: 600 0.8rem 'GeneralSans-Regular';
-    transition: 0.3s;
-}
+.product-title{font: 500 1.2rem 'TrenchSlab-Medium'; transition: 0.3s;}
+.product-box:hover .product-title{font: 500 1rem 'TrenchSlab-Medium'; transition: 0.3s;}
+.product-price{font: 600 1rem 'GeneralSans-Regular'; transition: 0.3s;}
+.product-box:hover .product-price{font: 600 0.8rem 'GeneralSans-Regular'; transition: 0.3s;}
 .bx-cart-add{
     position: absolute;
     bottom: 0;
@@ -254,10 +237,7 @@ aside{
     transform-origin: top right;
     transition: 0.3s;
 }
-aside.active{
-    transform: scale(1);
-    transition: 0.3s;
-}
+aside.active{transform: scale(1); transition: 0.3s;}
 .cart-container > h1{
     font: 400 1.5rem 'TrenchSlab-Medium';
     color: var(--black);
@@ -300,10 +280,7 @@ aside.active{
     object-position: center;
 }
 .cart-title{font: 500 20px 'TrenchSlab-Medium';}
-.cart-price{
-    font: 600 16px 'GeneralSans-Regular';
-    margin-bottom: 3px;
-}
+.cart-price{font: 600 16px 'GeneralSans-Regular';margin-bottom: 3px;}
 .cart-quantity{
     color: hsl(0 4% 15% / 40%);
     font: 600 12px 'GeneralSans-Regular';
@@ -340,10 +317,7 @@ aside.active{
     font: 400 16px 'TrenchSlab-Medium';
     cursor: pointer;
 }
-.buy-btn.hide{
-    opacity: 0.3;
-    pointer-events: none;
-}
+.buy-btn.hide{opacity: 0.3;pointer-events: none;}
 /* Alert */
 .alert{
     position: fixed;
@@ -361,13 +335,8 @@ aside.active{
     align-items: center;
     transition: 0.3s;
 }
-.alert.show{
-    right: 0;
-    transition: 0.3s;
-}
-.alert-txt{
-    font: 400 1rem 'TrenchSlab-Medium';
-}
+.alert.show{right: 0; transition: 0.3s;}
+.alert-txt{font: 400 1rem 'TrenchSlab-Medium';}
 .close{
     display: flex;
     justify-content: center;

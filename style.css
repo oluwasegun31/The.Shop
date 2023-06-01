@@ -58,10 +58,7 @@ nav{
     max-width: 1100px;
     margin: 0 auto;
 }
-.logo{
-    font: 400 2rem 'TrenchSlab-Medium';
-    cursor: default;
-}
+.logo{ font: 400 2rem 'TrenchSlab-Medium'; cursor: default;}
 .nav-items{
     position: relative;
     width: 40px;
@@ -275,9 +272,7 @@ aside.active{
     max-height: 78%;
     overflow-y: auto;
 }
-.cart-content::-webkit-scrollbar {
-    width: 3px;
-}
+.cart-content::-webkit-scrollbar { width: 3px;}
 .cart-content::-webkit-scrollbar-track {
     background-color: var(--shadow);
     border-radius: 50px;
@@ -286,9 +281,7 @@ aside.active{
     background-color: var(--white);
     border-radius: 4px;
 }
-.empty-cart{
-    font: 500 1.5rem 'TrenchSlab-Medium';
-}
+.empty-cart{font: 500 1.5rem 'TrenchSlab-Medium';}
 .cart-box{
     display: flex;
     width: 100%;
@@ -306,9 +299,7 @@ aside.active{
     object-fit: cover;
     object-position: center;
 }
-.cart-title{
-    font: 500 20px 'TrenchSlab-Medium';
-}
+.cart-title{font: 500 20px 'TrenchSlab-Medium';}
 .cart-price{
     font: 600 16px 'GeneralSans-Regular';
     margin-bottom: 3px;
@@ -319,9 +310,7 @@ aside.active{
     text-transform: uppercase;
     margin: 2px 0 10px 0;
 }
-.cart-quantity span{
-    margin-left: 5px;
-}
+.cart-quantity span{margin-left: 5px;}
 .cart-remove{
     position: absolute;
     top: 0;
@@ -336,9 +325,7 @@ aside.active{
     border-top: 1px dashed var(--black);
     padding: 8px 5px;
 }
-.cart-total p {
-    font: 500 20px 'TrenchSlab-Medium';
-}
+.cart-total p {font: 500 20px 'TrenchSlab-Medium';}
 .buy-container{
     display: flex;
     justify-content: center;
@@ -435,24 +422,15 @@ aside.active{
 }
 #wifi-loader svg circle.back {stroke: var(--back-color);}
 #wifi-loader svg circle.front {stroke: var(--front-color);}
-#wifi-loader svg.circle-outer {
-    height: 86px;
-    width: 86px;
-}
+#wifi-loader svg.circle-outer {height: 86px; width: 86px;}
 #wifi-loader svg.circle-outer circle {stroke-dasharray: 62.75 188.25;}
 #wifi-loader svg.circle-outer circle.back {animation: circle-outer135 1.8s ease infinite 0.3s;}
 #wifi-loader svg.circle-outer circle.front {animation: circle-outer135 1.8s ease infinite 0.15s;}
-#wifi-loader svg.circle-middle {
-    height: 60px;
-    width: 60px;
-}
+#wifi-loader svg.circle-middle {height: 60px; width: 60px;}
 #wifi-loader svg.circle-middle circle {stroke-dasharray: 42.5 127.5;}
 #wifi-loader svg.circle-middle circle.back {animation: circle-middle6123 1.8s ease infinite 0.25s;}
 #wifi-loader svg.circle-middle circle.front {animation: circle-middle6123 1.8s ease infinite 0.1s;}
-#wifi-loader svg.circle-inner {
-    height: 34px;
-    width: 34px;
-}
+#wifi-loader svg.circle-inner { height: 34px; width: 34px;}
 #wifi-loader svg.circle-inner circle {stroke-dasharray: 22 66;}
 #wifi-loader svg.circle-inner circle.back {animation: circle-inner162 1.8s ease infinite 0.2s;}
 #wifi-loader svg.circle-inner circle.front {animation: circle-inner162 1.8s ease infinite 0.05s;}
@@ -491,13 +469,9 @@ aside.active{
 }
 @keyframes circle-inner162 {
     0% {stroke-dashoffset: 9;}
-
     25% {stroke-dashoffset: 0;}
-
     65% {stroke-dashoffset: 106;}
-
     80% {stroke-dashoffset: 97;}
-
     100% {stroke-dashoffset: 97;}
 }
 @keyframes text-animation76 {
@@ -516,10 +490,7 @@ aside.active{
     color: var(--white);
     text-align: center;
 } 
-.bx-navigation{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
+.bx-navigation{ font-size: 2.5rem; margin-bottom: 1rem;}
 /* Responsiveness */
 @media screen and (max-width: 1100px) {
     nav{padding: 15px 10px;}
@@ -536,23 +507,14 @@ aside.active{
         scroll-snap-type: x mandatory;
         border-radius: 0;
     }
-    .filter button{
-        scroll-snap-align: start;
-        flex-shrink: 0;
-    }
-    .product-content{
-        grid-template-columns: repeat(auto-fill, 100%);
-        gap: 2rem;
-    }
+    .filter button{scroll-snap-align: start; flex-shrink: 0;}
+    .product-content{ grid-template-columns: repeat(auto-fill, 100%); gap: 2rem;}
     .product-box{
         position: relative;
         transition: 0.3s;
         height: auto;
     }
-    .product-box:hover{
-        padding: 0;
-        border: 0;
-    }
+    .product-box:hover{ padding: 0; border: 0; }
     .product-box:hover .product-title{font: 500 1.2rem 'TrenchSlab-Medium';}
     .product-box:hover .product-price{font: 600 1rem 'GeneralSans-Regular';}
     aside{ width: 95%;}

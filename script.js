@@ -28,7 +28,7 @@ productContainer.innerHTML = categories.map(item=> {
     
     return (
         `<div class="product-box ${filterType}">
-            <img src=${image} alt="product-image" class="product-img">
+            <img src=${image} alt="product-image" class="product-img" loading= 'lazy'>
             <p class="product-title">${productTitle}</p>
             <p class="product-price">₦ ${price}</p>
             <i class="bx bx-cart-add" onclick= 'addToCart(${i++})'></i>
